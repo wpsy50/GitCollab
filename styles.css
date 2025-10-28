@@ -3,13 +3,19 @@
 body {
     font-family: 'Share Tech Mono', monospace;
 }
+h1 {
+    padding-top: 30px;
+}
 
 nav {
     color: black;
     padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
 }
 
 p {
+    padding:50px;
     margin-left: 50px;
     margin-right: 50px;
 }
