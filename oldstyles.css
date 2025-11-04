@@ -3,6 +3,7 @@
 body {
     font-family: 'Share Tech Mono', monospace;
 }
+
 h1 {
     padding-top: 30px;
 }
@@ -12,10 +13,24 @@ nav {
     padding: 10px;
     justify-content: space-evenly;
     display: flex;
+    font-weight: 700;
+    background-color: darkgrey;
 }
 
 p {
     padding:50px;
+    padding-bottom: 0px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+
+img {
+    width: 40%;
+    height: 40%;
 }
